@@ -79,6 +79,6 @@ Components.tree.editForm = TreeForm;
 Components.unknown.editForm = UnknownForm;
 Components.url.editForm = UrlForm;
 Components.well.editForm = WellForm;
-Components.collapse.editForm = CollapsePanelForm;
+Components.collapsePanel.editForm = CollapsePanelForm;
 
 export default Components;
