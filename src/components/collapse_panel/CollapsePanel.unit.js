@@ -8,7 +8,7 @@ import {
 } from './fixtures';
 
 import CollapsePanelComponent from './CollapsePanel';
-import CollapsePanelForm from './CollapsePanel.form';
+import collapsePanelForm from './CollapsePanel.form';
 
 describe('Collapse Panel Component', () => {
   it('Should build a collapse panel component', () => {
@@ -19,7 +19,7 @@ describe('Collapse Panel Component', () => {
 
   describe('Edit Form', () => {
     it('should include components for important settings', () => {
-      const components = flattenComponents(CollapsePanelForm().components);
+      const components = flattenComponents(collapsePanelForm().components);
       const keys = Object.keys(components).map(path => components[path].key);
       const settings = [
         'breadcrumb',
