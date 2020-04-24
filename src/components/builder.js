@@ -38,6 +38,7 @@ import TreeForm from './tree/Tree.form';
 import UnknownForm from './unknown/Unknown.form';
 import UrlForm from './url/Url.form';
 import WellForm from './well/Well.form';
+import CollapsePanelForm from './collapse_panel/CollapsePanel.form';
 
 Components.address.editForm = AddressForm;
 Components.button.editForm = ButtonForm;
@@ -78,5 +79,6 @@ Components.tree.editForm = TreeForm;
 Components.unknown.editForm = UnknownForm;
 Components.url.editForm = UrlForm;
 Components.well.editForm = WellForm;
+Components.collapse.editForm = CollapsePanelForm;
 
 export default Components;
